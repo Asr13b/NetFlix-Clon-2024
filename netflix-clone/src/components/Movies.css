@@ -1,0 +1,27 @@
+.movies-container {
+  padding: 20px;
+}
+
+.movie-row {
+  display: flex;
+  overflow-x: scroll;
+  padding: 20px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.movie-row::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.movie-poster {
+  max-height: 250px;
+  object-fit: contain;
+  margin-right: 10px;
+  transition: transform 450ms;
+  cursor: pointer;
+}
+
+.movie-poster:hover {
+  transform: scale(1.08);
+}

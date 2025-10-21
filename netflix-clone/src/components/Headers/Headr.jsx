@@ -1,5 +1,9 @@
 import React from 'react'
 import "./header.css"
+import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+import EjectIcon from '@mui/icons-material/Eject';
+import SearchTwoToneIcon from '@mui/icons-material/SearchTwoTone';
+import AccountBoxTwoToneIcon from '@mui/icons-material/AccountBoxTwoTone';
 
 const Header = () => {
   return (
@@ -19,11 +23,11 @@ const Header = () => {
 
         <div className="header_right">
           <ul>
-            <li>🔍</li>
+            <li><SearchTwoToneIcon/></li>
             <li>Kids</li>
-            <li>DVD</li>
-            <li>🔔</li>
-            <li className="profile">🙂</li>
+            <li><EjectIcon/></li>
+            <li><NotificationsNoneIcon/></li>
+            <li className="profile"><AccountBoxTwoToneIcon/></li>
           </ul>
         </div>
       </div>

@@ -1,17 +1,18 @@
 import React from "react";
 import "./footer.css";
-
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 const Footer = () => {
   return (
     <div className="footer_outer_container">
       <div className="footer_container">
         
-        {/* Top: Social media icons (use emojis for now, can replace with icons later) */}
+        {/* Top: Social media icons */}
         <div className="footer_socials">
-          <span>👍</span>
-          <span>🐦</span>
-          <span>📸</span>
-          <span>▶️</span>
+          <span><FacebookOutlinedIcon/></span>
+          <span><InstagramIcon/></span>
+          <span><YouTubeIcon/></span>
         </div>
 
         {/* Middle: Links */}
@@ -50,3 +51,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
