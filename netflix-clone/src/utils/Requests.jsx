@@ -2,7 +2,7 @@
 const API_KEY = import.meta.env.VITE_API_KEY;
 
 const requests = {
-fetchAnimationNature: `/discover/movie?api_key=${API_KEY}&language=en-US&with_genres=16&with_keywords=nature,wildlife,planet,animals&without_keywords=people,human,biography&sort_by=popularity.desc`,
+fetchAnimationNature: `/discover/movie?api_key=${API_KEY}&language=en-US&with_genres=16&sort_by=popularity.desc`,
   
   fetchNatureDocumentaries: `/discover/movie?api_key=${API_KEY}&language=en-US&with_genres=99&with_keywords=nature,wildlife,planet,animals&without_keywords=people,human,biography&sort_by=popularity.desc`,
 
