@@ -5,8 +5,8 @@
   "type": "module",
   "homepage": "https://Asr13b.github.io/NetFlix-Clon-2024",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
     "predeploy": "npm run build",
@@ -36,4 +36,3 @@
     "vite": "^7.1.2"
   }
 }
-
